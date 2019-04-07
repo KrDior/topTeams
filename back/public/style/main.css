@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: mediumaquamarine; 
+}
+
+.start-btn {
+    display: block;
+    margin: 50px auto;
+}
+#table0 {
+    margin-left: 50px;
+}
+#table0, #table2, #table4, #table6 {
+    border-collapse: collapse;
+    display: inline-block;
+}
+#table1, #table3, #table5, #table7 {
+    margin-right: 50px;
+    border-collapse: collapse;
+    display: inline-block;
+
+
+}
+table tr, td {
+    width: 70px;
+    border: 2px solid black;
+}
+table td:nth-child(2n) {
+    color: brown;
+}
